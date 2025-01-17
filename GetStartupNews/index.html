@@ -9,25 +9,39 @@
 </head>
 <body>
 <header class="navbar">
-    <!-- This is a navigation bar small icons -->
-    <div class="small-icons">
-        <i class="fab fa-twitter text-gray-400"></i>
-        <i class="fab fa-instagram text-gray-400"></i>
-        <i class="fab fa-github text-gray-400"></i>
-        <i class="fab fa-dribbble text-gray-400"></i>
-        
+<!-- This is a navigation bar small icons -->
+<div class="small-icons">
+    <i class="fab fa-twitter text-gray-400"></i>
+    <i class="fab fa-instagram text-gray-400"></i>
+    <i class="fab fa-github text-gray-400"></i>
+    <i class="fab fa-dribbble text-gray-400"></i>
+    
 <a href="#" class="free-trail">Free Trail</a>
 </div>
 </header>   
 
-<main class="main-content">
-    <h1 class="headline">
-        Get<span class="highlight">StartUp</span>news every day <span class="emoji">👉</span>
-    </h1>
+<div class="main-content">
+<h1 class="headline">
+    <span></span>  Get<span class="highlight"> StartUp</span> <br>&nbsp;&nbsp;news every day <span class="emoji">👇</span></span>
+</h1>
 
-    <p class="subheadline">Your One-Stop StartUp Destination for Latest Startup Buzz</p>
-</main>
-
+<p class="subheadline">Your One-Stop StartUp Destination for Latest Startup Buzz</p>
 </div>
+
+
+<div class="post-box">
+<textarea id="postInput" placeholder="Write About Your StartUp....."></textarea>
+<button onclick="addPost()">Post</button>
+
+
+<div class="posts" id="postsContainer">
+    <!-- User posts will appear here -->
+    </div>
+</div>
+
+
+
+<script src="app.js"></script>
+
 </body>
 </html>
